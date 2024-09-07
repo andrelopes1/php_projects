@@ -46,7 +46,14 @@ echo calculateDistance(0, 2);
 
 
 
-
+function calculateTip($num){
+    $total = round($num * 1.18);
+    return $total;
+  }
+  
+  echo "\n";
+  
+  echo calculateTip(187);
 
 
 
