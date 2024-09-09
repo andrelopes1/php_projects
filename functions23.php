@@ -1,5 +1,14 @@
 <?php
-namespace Codecademy;
+/*
+Write a function, returnSeason(). Your function should take in a string representing a month (e.g. "January"), and it should return which season that month falls in.
+
+    "December", "January", and "February" are "winter" months.
+    "March", "April", and "May" are "spring" months.
+    "June", "July", and "August" are "summer" months.
+    And "September", "October", and "November" are "fall" months.
+
+Your function should use a switch statement and fall through to accomplish this task.
+*/
 
 function returnSeason($month){
   switch ($month) {
